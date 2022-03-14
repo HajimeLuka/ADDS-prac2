@@ -1,21 +1,20 @@
 #include <iostream>
-#include "Musician.h"
+#include "Computer.h"
 #include <string>
 #include <stdlib.h>
 using namespace std;
 
 Computer::Computer(){
-    count=0;
-}
 
-Computer::Computer(char move){
-    move="R";
-
+    
 }
 
 
-makeMove::makeMove(){
-    return "R";
+char Computer::makeMove(){
+    return move;
+    move = 'R';
+
 }
 
 //computer only plays rock
+

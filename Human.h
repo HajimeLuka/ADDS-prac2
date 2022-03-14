@@ -6,9 +6,14 @@ using namespace std;
 class Human{
 
     public: //constructor
-    char makeMove(char move);
+    Human();
+    char makeMove();
 
-    ~human();
+
+    private:
+    char move; 
 
 
-}
+};
+
+#endif
