@@ -6,14 +6,13 @@ using namespace std;
 
 Computer::Computer(){
 
-    
+
 }
 
 
 char Computer::makeMove(){
-    return move;
     move = 'R';
-
+    return move;
 }
 
 //computer only plays rock
